@@ -1,24 +1,16 @@
-import logo from './logo.svg';
+
 import './App.css';
+import CheckIn from './CheckIn';
 
 function App() {
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
+    
+    <>
+      <h2 style={{"color": "#500E4B","fontWeight":"500","fontSize":"24px","marginLeft":"30px","marginTop":"30px"}}>Web Check-In</h2>
+      <CheckIn/>
+    </>
+      
+    
   );
 }
 
